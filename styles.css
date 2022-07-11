@@ -1,0 +1,133 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: black;
+    
+}
+main{
+    display:flex ;
+    flex-direction: row;
+    height: 100%;
+    
+}
+.right-side{
+   display: flex ;
+   flex:1;
+   background-image: url(./read_news.jpg);
+   background-size: 1100px 100%; 
+   background-repeat: no-repeat;
+   justify-content: left;
+   z-index: 1;
+}
+.left-side{
+   background-color: black;
+   display: flex ;
+   flex:1;
+   flex-direction: column;
+   margin-left: 50px;
+   z-index: 2;
+  
+
+}
+.wrapper-input{
+    display:flex ;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-right: -150px;
+    box-shadow: 1px 2px 1px 0px #0b9c6c;
+    border-left: 5px solid #0b9c6c;
+    /*
+    box-shadow: 14px -2px 9px 4px rgba(0,0,0,0.6);
+    -webkit-box-shadow: 14px -2px 9px 4px rgba(0,0,0,0.6);
+    -moz-box-shadow: 14px -2px 9px 4px rgba(0,0,0,0.6); */
+ 
+}
+input{
+    width: 100%;
+}
+
+label{
+    display: block;
+    color: #A8A8A8;
+    font-size: 20px;
+    margin-top: 10px;
+}
+#email{
+    height: 40px;
+    margin-right: 0px;
+    border: 1px solid #0b9c6c;
+    
+}
+#email:hover{
+    border-color: #0b9c6c;
+}
+#email::placeholder{
+    font-size: 15px;
+    font-weight: bold;
+    padding-left: 10px;
+}
+.botao{
+    height: 100%;
+    background-color: #8257E5;
+    cursor: pointer;
+    padding: 6px 4px 3px 4px;
+    margin-top: 0px;
+    border: 1px solid #0b9c6c;
+    
+}
+.botao:hover{
+    box-shadow: -3px 0px 5px 0px #4d2f92 inset;
+    opacity: 0.9;
+
+}
+.logo{
+    width: 500px;
+    margin:40px 0px 30px;
+}
+p{
+    color: white;
+    margin: 0px;
+    font-family: 'League Spartan', sans-serif;
+    font-weight: normal;
+}
+h3{
+    color: #0b9c6c;
+    font-family: 'League Spartan', sans-serif;
+    margin-bottom: 10px;
+    margin-top: 50px;
+    font-size: 45px;
+    
+}
+form{
+    margin-top: 10px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    background-color: #8257E5;
+    width: 250px;
+    padding: 10px;
+    border-radius: 3px;
+}
+a:hover{
+    box-shadow: -3px 0px 5px 0px #4d2f92 inset;
+    opacity: 0.9;
+}
+.rocket{
+    padding-left: 10px;
+}
+.bold{
+    margin-bottom: 15px;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 20px;
+}
+
+
+
